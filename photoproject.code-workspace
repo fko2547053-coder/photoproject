@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "photoproject",
+			"path": "../photoproject_teacher/photoproject"
+		}
+	],
+	"settings": {}
+}
