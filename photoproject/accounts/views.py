@@ -9,6 +9,7 @@ class SignUpView(CreateView):
     from_class = CustomUserCreationFrom
     template_name = "signuo.html"
     success_url = reverse_lazy('accounts:signup_success')
+    
     def from_valid(self,form):
         user = form.save()
         self.object = user
